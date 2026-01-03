@@ -14,7 +14,7 @@ limitations under the License. -->
 
 # Use Terraform to deploy Online Boutique on a GKE cluster
 
-This page walks you through the steps required to deploy the [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) sample application on a [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) cluster using Terraform.
+This page walks you through the steps required to deploy the [Online Boutique](https://github.com/TrustResolveAI/microservices-demo-main) sample application on a [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) cluster using Terraform.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ This page walks you through the steps required to deploy the [Online Boutique](h
 1. Clone the Github repository.
 
     ```bash
-    git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
+    git clone https://github.com/TrustResolveAI/microservices-demo-main.git
     ```
 
 1. Move into the `terraform/` directory which contains the Terraform installation scripts.
