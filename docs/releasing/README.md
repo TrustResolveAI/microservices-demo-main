@@ -41,7 +41,7 @@ You can then browse the [Container Registry repository](https://pantheon.corp.go
 
 ## Create the PR
 
-Now that the release branch has been created, you can find it in the [list of branches](https://github.com/GoogleCloudPlatform/microservices-demo/branches) and create a pull request targeting `main` (the default branch).
+Now that the release branch has been created, you can find it in the [list of branches](https://github.com/TrustResolveAI/microservices-demo-main/branches) and create a pull request targeting `main` (the default branch).
 
 This process is going to trigger multiple CI checks as well as stage the release onto a temporary cluster. Once the PR has been approved and all checks are successfully passing, you can then merge the branch. Make sure to include the release draft (see next section) in the pull-request description for reviewers to see.
 
@@ -49,11 +49,11 @@ Once reviewed and you're ready to merge, make sure to not delete the release bra
 
 ## Add notes to the release
 
-Once the PR has been fully merged, you are ready to create a new release for the newly created [tag](https://github.com/GoogleCloudPlatform/microservices-demo/tags).
-- Click the breadcrumbs on the row of the latest tag that was created in the [tags](https://github.com/GoogleCloudPlatform/microservices-demo/tags) page
+Once the PR has been fully merged, you are ready to create a new release for the newly created [tag](https://github.com/TrustResolveAI/microservices-demo-main/tags).
+- Click the breadcrumbs on the row of the latest tag that was created in the [tags](https://github.com/TrustResolveAI/microservices-demo-main/tags) page
 - Select the `Create release` option
 
-The release notes should contain a brief description of the changes since the previous release (like bug fixed and new features). For inspiration, you can look at the list of [releases](https://github.com/GoogleCloudPlatform/microservices-demo/releases).
+The release notes should contain a brief description of the changes since the previous release (like bug fixed and new features). For inspiration, you can look at the list of [releases](https://github.com/TrustResolveAI/microservices-demo-main/releases).
 
 > ***Note:*** No assets need to be uploaded. They are picked up automatically from the tagged revision
 

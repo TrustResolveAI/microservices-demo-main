@@ -48,7 +48,7 @@ This demo adds a new service to Online Boutique called `shoppingassistantservice
 
 1. Clone the `microservices-demo` repository locally.
     ```sh
-    git clone https://github.com/GoogleCloudPlatform/microservices-demo \
+    git clone https://github.com/TrustResolveAI/microservices-demo-main \
         && cd microservices-demo/
     ```
 

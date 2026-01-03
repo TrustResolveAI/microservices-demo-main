@@ -1,6 +1,6 @@
 # Update the container image tag of the Online Boutique apps
 
-By default, the Online Boutique apps are targeting the latest release version (see the list of versions [here](https://github.com/GoogleCloudPlatform/microservices-demo/releases)). You may need to change this image tag to target a specific version, this Kustomize variation will help you setting this up.
+By default, the Online Boutique apps are targeting the latest release version (see the list of versions [here](https://github.com/TrustResolveAI/microservices-demo-main/releases)). You may need to change this image tag to target a specific version, this Kustomize variation will help you setting this up.
 
 ## Change the default container image tag via Kustomize
 

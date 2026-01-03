@@ -214,7 +214,7 @@ cartDatabase:
     certificate: ""
 
 # @TODO: This service is not currently available in Helm.
-# https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/kustomize/components/shopping-assistant
+# https://github.com/TrustResolveAI/microservices-demo-main/tree/main/kustomize/components/shopping-assistant
 shoppingAssistantService:
   create: false
   name: shoppingassistantservice

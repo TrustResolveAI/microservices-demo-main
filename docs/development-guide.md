@@ -9,7 +9,7 @@ This doc explains how to build and run the Online Boutique source code locally u
 - [skaffold **2.0.2+**](https://skaffold.dev/docs/install/) (latest version recommended), a tool that builds and deploys Docker images in bulk. 
 - Clone the repository.
     ```sh
-    git clone https://github.com/GoogleCloudPlatform/microservices-demo
+    git clone https://github.com/TrustResolveAI/microservices-demo-main
     cd microservices-demo/
     ```
 - A Google Cloud project with Google Container Registry enabled. (for Option 1 - GKE)

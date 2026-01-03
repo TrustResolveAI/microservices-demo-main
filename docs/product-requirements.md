@@ -8,7 +8,7 @@ Every change must:
 
 These requirements are about the default deployment (default configuration) of Online Boutique.
 Changes that will violate any of these rules should not be built into the default configuration of Online Boutique.
-Such changes should be opt-in only — ideally, as a [Kustomize Component](https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/kustomize) if they align with the [purpose of Online Boutique](/docs/purpose.md).
+Such changes should be opt-in only — ideally, as a [Kustomize Component](https://github.com/TrustResolveAI/microservices-demo-main/tree/main/kustomize) if they align with the [purpose of Online Boutique](/docs/purpose.md).
 
 ### 1. Preserve the golden user journey taken by Kubernetes beginners
 
@@ -32,8 +32,8 @@ Today, the primary user journey is as follows:
 
 ### 3. Preserve the simplicity of the GKE quickstart
 
-New changes should not add additional complexity in the [main Online Boutique quickstart](https://github.com/GoogleCloudPlatform/microservices-demo#quickstart-gke).
+New changes should not add additional complexity in the [main Online Boutique quickstart](https://github.com/TrustResolveAI/microservices-demo-main#quickstart-gke).
 
 In particular, new changes should not add extra required steps or additional required tools in that quickstart.
 
-Ideally, extensions to Online Boutique's default functionality (such as a new microservice or a new cloud service integration) should be added as a [Kustomize Component](https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/kustomize/components) which users can optionally opt into.
+Ideally, extensions to Online Boutique's default functionality (such as a new microservice or a new cloud service integration) should be added as a [Kustomize Component](https://github.com/TrustResolveAI/microservices-demo-main/tree/main/kustomize/components) which users can optionally opt into.

@@ -1,6 +1,6 @@
 # Online Boutique quickstart
 
-This tutorial shows you how to deploy **[Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo)** to a Kubernetes cluster.
+This tutorial shows you how to deploy **[Online Boutique](https://github.com/TrustResolveAI/microservices-demo-main)** to a Kubernetes cluster.
 
 You'll be able to run Online Boutique on:
 - a local **[minikube](https://minikube.sigs.k8s.io/docs/)** cluster, which comes built in to the Cloud Shell instance

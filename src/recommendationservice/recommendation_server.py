@@ -20,7 +20,7 @@ import time
 import traceback
 from concurrent import futures
 
-# @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+# @TODO: Temporarily removed in https://github.com/TrustResolveAI/microservices-demo-main/pull/3196
 # import googlecloudprofiler
 
 from google.auth.exceptions import DefaultCredentialsError
@@ -48,7 +48,7 @@ def initStackdriverProfiling():
     # Environment variable not set
     pass
 
-  # @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+  # @TODO: Temporarily removed in https://github.com/TrustResolveAI/microservices-demo-main/pull/3196
   # for retry in range(1,4):
   #   try:
   #     if project_id:

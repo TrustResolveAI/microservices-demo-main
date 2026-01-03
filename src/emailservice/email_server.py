@@ -36,7 +36,7 @@ from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
 
-# @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+# @TODO: Temporarily removed in https://github.com/TrustResolveAI/microservices-demo-main/pull/3196
 # import googlecloudprofiler
 
 from logger import getJSONLogger
@@ -144,7 +144,7 @@ def initStackdriverProfiling():
     # Environment variable not set
     pass
 
-  # @TODO: Temporarily removed in https://github.com/GoogleCloudPlatform/microservices-demo/pull/3196
+  # @TODO: Temporarily removed in https://github.com/TrustResolveAI/microservices-demo-main/pull/3196
   # for retry in range(1,4):
   #   try:
   #     if project_id:
